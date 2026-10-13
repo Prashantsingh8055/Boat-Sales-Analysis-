@@ -13,6 +13,8 @@ This repository analyzes boat sales data to uncover key insights related to the 
 
 The main goal is to perform exploratory data analysis (EDA), create meaningful visualizations, and summarize business-relevant findings from the dataset.
 
+This project is built using Microsoft Power BI for data cleaning, transformation, modeling, and interactive dashboard creation.
+
 ## Why This Project?
 
 Boat sales are influenced by multiple factors such as seasonality, brand reputation, boat type, and regional demand. By examining the dataset, this project aims to identify patterns that help explain:
@@ -42,27 +44,29 @@ Boat-Sales-Analysis-/
 ├── notebooks/            # EDA and analysis notebooks (planned)
 ├── scripts/               # data cleaning and analysis scripts (planned)
 ├── visualizations/        # charts and graphs (planned)
+├── powerbi/               # Power BI files and dashboard assets (planned)
 └── outputs/               # summary reports and insights (planned)
 ```
 
 ## Analysis Workflow
 
-1. Load and inspect the dataset
-2. Clean and preprocess missing or inconsistent values
-3. Explore distributions and summary statistics
-4. Analyze sales trends over time
-5. Compare pricing by brand, category, and region
-6. Visualize patterns and derive business insights
-7. Summarize findings in a clear report
+1. Import the dataset into Power BI
+2. Clean and transform data using Power Query
+3. Create relationships and data model using Power BI
+4. Build calculated measures and columns with DAX
+5. Explore sales trends over time
+6. Compare pricing by brand, category, and region
+7. Design interactive dashboards and reports
+8. Summarize business insights for decision-making
 
 ## Tools and Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Data Visualization
+- Microsoft Excel (optional support)
 
 ## Expected Outcomes
 
@@ -75,4 +79,4 @@ This project aims to provide a clear understanding of:
 
 ## Conclusion
 
-Boat Sales Analysis is a practical data science project that combines exploratory analysis, visualization, and business interpretation to reveal trends in the boat market. It is designed to help understand the key drivers behind sales performance and pricing behavior.
+Boat Sales Analysis is a practical business intelligence project that uses Power BI to combine data cleaning, modeling, visualization, and interpretation. It is designed to help stakeholders understand demand, pricing, and market trends through interactive dashboards and data-driven insights.
